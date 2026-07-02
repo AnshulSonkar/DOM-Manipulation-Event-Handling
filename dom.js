@@ -8,14 +8,14 @@
 // heading.textContent = "Hello Anshu";
 
 
-let button = document.getElementById("btn");
-let message = document.getElementById("message");
+// let button = document.getElementById("btn");
+// let message = document.getElementById("message");
 // let button = document.getElementById("btn");
 // let message = document.getElementById("message");
 
-button.addEventListener("click", function () {
-  message.textContent = "Button Clicked!";
-});
+// button.addEventListener("click", function () {
+//   message.textContent = "Button Clicked!";
+// });
 // button.addEventListener("click", function () {
 //   message.textContent = "Button Clicked!";
 // });
@@ -25,6 +25,23 @@ button.addEventListener("click", function () {
 
 // heading.style.color = "blue";
 // heading.style.fontSize = "40px";
+
+
+// let heading = document.getElementById("title");
+
+// heading.style.color = "blue";
+// heading.style.fontSize = "40px";
+
+
+
+// Main code
+let button = document.getElementById("btn");
+let message = document.getElementById("message");
+
+
+button.addEventListener("click", function () {
+  message.textContent = "Button Clicked!";
+});
 
 
 let heading = document.getElementById("title");
